@@ -18,7 +18,7 @@ function runClock() {
   var timeStr = currentDay.toLocaleTimeString();
   
   //Display current date and time
-  document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
+  // document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
 
   //Creating a date object for election day
   var electionDay = new Date("November 7, 2028");  

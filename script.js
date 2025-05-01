@@ -21,7 +21,7 @@ function runClock() {
   // document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
 
   //Creating a date object for election day
-  var electionDay = new Date("November 7, 2028");  
+  var electionDay = new Date("March 18, 2029");  
 
   electionDay.setFullYear("2028");
   var daysLeft = (electionDay - currentDay) / (1000 * 60 * 60 * 24);

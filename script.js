@@ -23,15 +23,19 @@ function runClock() {
   //Creating a date object for retirement day
   var retirementDay = new Date("March 18, 2029");  
 
-  electionDay.setFullYear("2028");
+  electionDay.setFullYear("2029");
   var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
-  var weeksLeft = daysLeft / 7;
+  var weeksLeft = (daysLeft) / 7;
+  
+/*
   var hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;
   var minsLeft = (hrsLeft - Math.floor(hrsLeft)) * 60;
   var secsLeft = (minsLeft - Math.floor(minsLeft)) * 60;
+*/
+
 
   //Dislpay time left until retirement
-  document.getElementById("weeks").textContent = Math.floor(daysLeft);
+  document.getElementById("weeks").textContent = Math.floor(weeksLeft);
   document.getElementById("days").textContent = Math.floor(daysLeft);
   
 /* 

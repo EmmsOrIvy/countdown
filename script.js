@@ -25,7 +25,7 @@ function runClock() {
 
   electionDay.setFullYear("2029");
   var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
-  var weeksLeft = (daysLeft) / 7;
+  var weeksLeft = (retirementDay - currentDay) / (1000 * 60 * 60);
   
 /*
   var hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;

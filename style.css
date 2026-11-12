@@ -27,7 +27,7 @@ h1 {
 div#clock {
   border: 5px solid yellow;
   border-radius: 120px;
-  width: 250px;
+  width: 400px;
 }
 div, div#time {
    font-size: 1.8em;

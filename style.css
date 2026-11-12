@@ -26,7 +26,7 @@ h1 {
 
 div#clock {
   border: 5px solid yellow;
-  border-radius: 80px;
+  border-radius: 120px;
   width: 250px;
 }
 div, div#time {

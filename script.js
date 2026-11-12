@@ -18,7 +18,7 @@ function runClock() {
   var timeStr = currentDay.toLocaleTimeString();
   
   //Display current date and time
-  document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
+  document.getElementById("date").innerHTML = dateStr + "<br/>" + timeStr;
 
   //Creating a date object for retirement day
   var retirementDay = new Date("March 18, 2029");  
@@ -35,7 +35,7 @@ function runClock() {
 
 
   //Dislpay time left until retirement
-  document.getElementById("weeks").textContent = Math.floor(weeksLeft);
+  document.getElementById("weeks").textContent = weeksLeft;
   document.getElementById("days").textContent = Math.floor(daysLeft);
   
 /* 

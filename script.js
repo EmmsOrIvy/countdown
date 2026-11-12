@@ -18,20 +18,27 @@ function runClock() {
   var timeStr = currentDay.toLocaleTimeString();
   
   //Display current date and time
-  // document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
+  document.getElementById("date").innerHTML = "Today: " + dateStr + "<br/>" + timeStr;
 
-  //Creating a date object for election day
-  var electionDay = new Date("March 18, 2029");  
+  //Creating a date object for retirement day
+  var retirementDay = new Date("March 18, 2029");  
 
   electionDay.setFullYear("2028");
-  var daysLeft = (electionDay - currentDay) / (1000 * 60 * 60 * 24);
+  var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
+  var weeksLeft = daysLeft / 7;
   var hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;
   var minsLeft = (hrsLeft - Math.floor(hrsLeft)) * 60;
   var secsLeft = (minsLeft - Math.floor(minsLeft)) * 60;
 
-  //Dislpay time left until election day
+  //Dislpay time left until retirement
+  document.getElementById("weeks").textContent = Math.floor(daysLeft);
   document.getElementById("days").textContent = Math.floor(daysLeft);
+  
+/* 
   document.getElementById("hrs").textContent = Math.floor(hrsLeft);
   document.getElementById("mins").textContent = Math.floor(minsLeft);
   document.getElementById("secs").textContent = Math.floor(secsLeft);
+*/ 
+
 }
+

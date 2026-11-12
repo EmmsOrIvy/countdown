@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+   Countdown Clock
+   Author: EmmsOrIvy
+   Date:  10/04/2022
+   repurposed: 1/25/2025
+
+*/
+
+html {
+   background-color:black;
+}
+
+body {
+   padding: 20px;
+}
+
+h1 {
+  color: ivory;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  text-align: center;
+  text-shadow: 1px 1px 1px red, 3px 3px 10px white;
+
+}
+
+div#clock {
+  border: 5px solid yellow;
+  border-radius: 120px;
+  width: 400px;
+}
+div {
+   font-size: 1.8em;
+   color:hsl(61, 100%, 50%);
+   font-family: 'Roboto Mono', monospace;
+   text-shadow: 1px 1px 1px red, 3px 3px 10px white;
+   text-align: center;
+   margin: 15px auto;
+}
+
+

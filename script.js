@@ -30,7 +30,7 @@ function runClock() {
   retirementDay.setFullYear("2028");
   var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
   var weeksLeft = daysLeft / 7;  
-  var daysLeftActual = (weeksLeft - Math.floor(weeksLeft))*7;
+  var daysLeftActual = (weeksLeft - Math.floor(weeksLeft));
   //console.log(daysLeftActual);
   
   //Dislpay time left until retirement

@@ -19,7 +19,7 @@ function runClock() {
   var timeStr = currentDay.toLocaleTimeString();
   
   //Display current date and time
-  //document.getElementById("date").innerHTML = dateStr + "<br/>" + timeStr;
+  //document.getElementById("date").innerHTML = dateStr + "<br />" + timeStr;
   document.getElementById("date").innerHTML = `${dateStr}<br>${timeStr}`;
 
   //Creating a date object for retirement day
@@ -31,8 +31,8 @@ function runClock() {
   var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
   var weeksLeft = daysLeft / 7;  
   var daysLeftActual = Math.round((((weeksLeft) - (Math.floor(weeksLeft)))*7)- 0.6);
-  console.log(weeksLeft);   
-  console.log(daysLeftActual);
+  //console.log(weeksLeft);   
+  //console.log(daysLeftActual);
   
   //Dislpay time left until retirement
   document.getElementById("weeks").textContent = Math.floor(weeksLeft);

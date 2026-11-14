@@ -15,7 +15,7 @@ html {
 body {
    padding: 1px;
    width: 100%;
-   margin: 0;
+   margin: 1px auto;
 }
 
 h1 {

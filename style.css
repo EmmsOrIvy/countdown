@@ -15,21 +15,20 @@ html {
 body {
    padding: 1px;
    width: 100%;
-   height: 100%;
    margin: 1px auto;
 }
 
 h1 {
-  color: ivory;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-  text-align: center;
-  text-shadow: 1px 1px 1px red, 3px 3px 10px white;
-
+   color: ivory;
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   text-align: center;
+   text-shadow: 1px 1px 1px red, 3px 3px 10px white;
 }
 
 div#clock {
-  border: 5px solid yellow;
-  border-radius: 50px;
+   border: 5px solid yellow;
+   border-radius: 50px;
+   height: 100%;
 }
 
 div {

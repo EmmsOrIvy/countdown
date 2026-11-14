@@ -16,6 +16,7 @@ body {
    padding: 1px;
    width: 100%;
    margin: 1px auto;
+   height: 100%;
 }
 
 h1 {
@@ -28,7 +29,6 @@ h1 {
 div#clock {
    border: 5px solid yellow;
    border-radius: 50px;
-   height: 100%;
 }
 
 div {

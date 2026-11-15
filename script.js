@@ -22,10 +22,10 @@ function runClock() {
   document.getElementById("date").innerHTML = `${dateStr}<br>${timeStr}`;
 
   //Creating a date object for retirement day
-  var retirementDay = new Date(2028, 2, 18);
+  var retirementDay = new Date(2029, 2, 18);
 
 
-  retirementDay.setFullYear("2028");
+  retirementDay.setFullYear("2029");
   var daysLeft = (retirementDay - currentDay) / (1000 * 60 * 60 * 24);
   var weeksLeft = daysLeft / 7;  
   var daysLeftActual = Math.round((((weeksLeft) - (Math.floor(weeksLeft)))*7)- 0.6);

@@ -32,18 +32,18 @@ function runClock() {
 
   //console.log(weeksLeft);   
   //console.log("before manual assign " + daysLeftActual);
-  daysLeftActual = 0;
+  //daysLeftActual = 0;
   //console.log("after manual assign " + daysLeftActual);
   
   var dayOrDays = "";
   
   if (daysLeftActual <= 0) {
-    daysLeftActual = " "
-    dayOrDays = " "
-    } else if (daysLeftActual > 1) {
-     dayOrDays = "Days"
+    daysLeftActual = 0
+    dayOrDays = "Days"
+    } else if (daysLeftActual = 1) {
+     dayOrDays = "Day"
     } else {
-      dayOrDays = "Day"
+      dayOrDays = "Days"
     };
 
 

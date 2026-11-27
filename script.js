@@ -37,12 +37,13 @@ function runClock() {
 
   console.log("after manual assign" + daysLeftActual);
 
+  var dayOrDays = "";
   
   if (daysLeftActual <= 0) {
     daysLeftActual = ""
-    dayOrDays = ""
+     dayOrDays = ""
     } else if (daysLeftActual > 1) {
-      dayOrDays = "Days"
+     dayOrDays = "Days"
     } else {
       dayOrDays = "Day"
     };

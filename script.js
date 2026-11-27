@@ -31,12 +31,10 @@ function runClock() {
   var daysLeftActual = Math.round((((weeksLeft) - (Math.floor(weeksLeft)))*7)- 0.6);
 
   //console.log(weeksLeft);   
-  console.log("before manual assign" + daysLeftActual);
-
-  daysLeftActual = 1;
-
-  console.log("after manual assign" + daysLeftActual);
-
+  //console.log("before manual assign " + daysLeftActual);
+  daysLeftActual = 3;
+  //console.log("after manual assign " + daysLeftActual);
+  
   var dayOrDays = "";
   
   if (daysLeftActual <= 0) {

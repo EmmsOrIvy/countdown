@@ -30,17 +30,28 @@ function runClock() {
   var weeksLeft = daysLeft / 7;  
   var daysLeftActual = Math.round((((weeksLeft) - (Math.floor(weeksLeft)))*7)- 0.6);
 
+
+
   if (daysLeftActual <= 0) {
-    daysLeftActual = 0
-  };
+    daysLeftActual = ""
+    dayOrDays = ""
+    } else if (daysLeftActual > 1) {
+      dayOrDays = "Days"
+    } else {
+      dayOrDays = "Day"
+    };
+
+
   //console.log(weeksLeft);   
   //console.log(daysLeftActual);
   
+
   //Dislpay time left until retirement
   document.getElementById("weeks").textContent = Math.floor(weeksLeft);
   //document.getElementById("days").textContent = Math.floor(daysLeft);
   document.getElementById("days").textContent = daysLeftActual;
-  
+  document.getElementById("days2").textContent = dayOrDays;
+
 }
 
 /*

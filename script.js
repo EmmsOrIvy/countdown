@@ -32,7 +32,7 @@ function runClock() {
 
   //console.log(weeksLeft);   
   //console.log("before manual assign " + daysLeftActual);
-  daysLeftActual = 3;
+  //daysLeftActual = 3;
   //console.log("after manual assign " + daysLeftActual);
   
   var dayOrDays = "";

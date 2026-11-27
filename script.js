@@ -39,7 +39,7 @@ function runClock() {
   
   if (daysLeftActual <= 0) {
     daysLeftActual = ""
-     dayOrDays = ""
+    dayOrDays = ""
     } else if (daysLeftActual > 1) {
      dayOrDays = "Days"
     } else {

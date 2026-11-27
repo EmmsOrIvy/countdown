@@ -30,8 +30,14 @@ function runClock() {
   var weeksLeft = daysLeft / 7;  
   var daysLeftActual = Math.round((((weeksLeft) - (Math.floor(weeksLeft)))*7)- 0.6);
 
+  //console.log(weeksLeft);   
+  console.log("before manual assign" + daysLeftActual);
 
+  daysLeftActual = 1;
 
+  console.log("after manual assign" + daysLeftActual);
+
+  
   if (daysLeftActual <= 0) {
     daysLeftActual = ""
     dayOrDays = ""
@@ -42,8 +48,7 @@ function runClock() {
     };
 
 
-  //console.log(weeksLeft);   
-  //console.log(daysLeftActual);
+
   
 
   //Dislpay time left until retirement
